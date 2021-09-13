@@ -11,10 +11,6 @@
     align-items: center;
 }
 
-/* .project {
-    
-} */
-
 .light-background {
     background-color: #F9FBFF;
 }
@@ -23,7 +19,6 @@
     background-color: #415167;
 }
 
-/*  */
 body {
     margin: 0px;
     cursor: default;
@@ -65,7 +60,6 @@ body {
     height: 290px;
   }
 }
-
 
 .personalized-coffee {
     position: absolute;
