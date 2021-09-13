@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link id="mainThemeCss" rel="stylesheet" href="coffee.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> coffee </title>
+</head>
+
+<body>
+    <div class="project-container">
+        <div class="project">
+            <!--  -->
+            <div class="md-modal-container d-none">
+                <div class="closing-modal">
+                    <span>&#10006;</span>
+                </div>
+                <div class="md-modal">
+                    <div class="content-common-block md-content">
+                        <div class="leave-request">Оставьте заявку</div>
+                        <div class="common-name">
+                            <form action="" id="form1">
+                                <input class="inp-number" id="zipCode" name="guruweba_example_search" type="number"
+                                    onkeyup="javascript:mask('zipCode', '+7(000)000-00-00', event);" value="+7(___)___-____"
+                                    step=".01" />
+                            </form>
+                        </div>
+                        <div class="common-name">
+                            <input class="inp-name" name="guruweba_example_search" placeholder="введите имя" type="text" />
+                        </div>
+                        <div class="common-ok-otmen">
+                            <div class="add-a-product">
+                                <input type="button" value="Отправить" class="inp-send" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- поле благодарности за заявку -->
+                <div class="thanks-for-application-container hidden">
+                    <div class="svg-container">
+                        <svg class="ft-green-tick" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 48 48"
+                            aria-hidden="true">
+                            <circle class="circle" fill="#5bb543" cx="24" cy="24" r="22" />
+                            <path class="tick" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-miterlimit="10" d="M14 27l5.917 4.917L34 17" />
+                        </svg>
+                    </div>
+                    <div class="thanks-for-application-title">ВАША ЗАЯВКА ОТПРАВЛЕНА!</div>
+                    <div class="add-a-product">
+                        <input type="button" value="Хорошо" class="inp-well" />
+                    </div>
+                </div>
+            <!--  -->
+
+
+            <div class="top-block">
+                <div class="personalized-coffee">
+                    <div class="your">
+                        YOUR
+                    </div>
+                    <div class="personalized">
+                        PERSONALIZED
+                    </div>
+                    <div class="coffee">
+                        COFFEE
+                    </div>
+                </div>
+                <div class="left-block-in-top-block light-background">
+                    <img class="left-block-img" src="img/lo.png" alt="">
+                </div>
+                <div class="center-block-in-top-block">
+                    <img class="center-blocl-img" src="img/1.jpg" alt="">
+                </div>
+                <div class="right-block-in-top-block blue-background">
+                    <!-- <img class="right-block-img"src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart.png" /> -->
+                </div>
+            </div>
+        
+            <div class="block-of-advantages light-background">
+                <div class="advantages-container">
+                    <div class="professional-coffee">
+                        <img class="prof-img" src="img/prof.png" alt="">
+                        <div class="prof-text">Профессиональный кофе по цене на 20% ниже чем у конкурентов</div>
+                    </div>
+                    <div class="selected-grains">
+                        <img class="prof-img" src="img/grains.png" alt="">
+                        <div class="selected-text">Отборные зёрна одной формы, цвета и размера</div>
+                    </div>
+                    <div class="good-condition">
+                        <img class="prof-img" src="img/condition.png" alt="">
+                        <div class="condition-text">Хорошее состояние и настроение от вкусного кофе</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="free-consultation-block light-background">
+                <div class="consultation">
+                    Бесплатно проконсультируем и проведём дегустацию
+                </div>
+                <div>
+                    <div class="information-container">
+                        <div class="we-give-grain-block">
+                            <div class="we-give-grain-text consultation-card-left">
+                                Дарим зерно с собой на пробу или устроим дегустацию у вас дома
+                            </div>
+                            <div class="help-disassembly consultation-card-left">
+                                Поможем разобраться в кофе и найти именно ваш вкус
+                            </div>
+                            <div class="teach-to-store consultation-card-left">
+                                Научим правильно хранить и готовить кофе
+                            </div>
+                        </div>
+        
+                        <div class="the-second-part-give-grain">
+                            <div class="pick-up-and consultation-card-right">
+                                Подберём и привезём удобную для вас кофе машину
+                            </div>
+                            <div class="give-recipe consultation-card-right">
+                                Дарим лучшие рецепты приготовления кофе
+                            </div>
+                            <div class="setup-and-repair consultation-card-right">
+                                Настроим и отремонтируем вашу кофе машину
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-btn">
+                        <button class="get-consultation-btn">Получить консультацию</button>
+                        <div class="manager-call">Наш менеджер вам перезвонит</div>
+                    </div>
+                </div>
+                <div class="left-free-consultation-block blue-background">
+                </div>
+            </div>
+        
+            <div class="our-varieties-container">
+                <div class="bacgroung-our-varieties-container"></div>
+                <div class="common-window">
+                    <div class="varieties-form">
+                        <div class="bright-and-unusual-title">
+                            Яркий и необычный
+                        </div>
+                        <div class="bright-and-unusual-text">
+                            <div class="bright-span">Выбирайте ЭФИОПИЯ ИРГАЧЕФФ ТОП, если вы любите кофе с кислинкой и
+                                фруктовыми
+                                нотками</div>
+                            <div class="bright-span">В нём низкое содержание кофеина и минимальный риск сильного сердцебиения
+                            </div>
+                            <div class="bright-span-end">Этот вид имеет яркий и изысканный вкус. За счёт высоты произростания и
+                                медленного</div>
+                        </div>
+                    </div>
+                    <!-- карточка вкуса 2 -->
+                    <div class="varieties-form-2">
+                        <div class="bright-and-unusual-title">
+                            Сбалансированный
+                        </div>
+                        <div class="bright-and-unusual-text">
+                            <div class="bright-span">Выбирайте БРАЗИЛИЯ ИГУАСУ, если хотите пить сбалансированный кофе по сладости и горечи</div>
+                            <div class="bright-span">В нём низкое содержание кофеина и минимальная кислинка</div>
+                            <div class="bright-span-end">Этот вид мягкий, с нотками ореха карамели и шоколада</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- карточка вкуса 3 -->
+                    <div class="varieties-form-3">
+                        <div class="bright-and-unusual-title">
+                            Простой
+                        </div>
+                        <div class="bright-and-unusual-text">
+                            <div class="bright-span">Выбирайте ЭСПРЕССО #1, если привыкли к более выраженной горчинке и минимальной кислинке
+                            </div>
+                            <div class="bright-span">В нём высокое содержание кофеина</div>
+                            <div class="bright-span-end">Этот вид сильно бодрит и придаёт энергии на весь день</div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    
+                    <div class="container-numbering">
+                        <div class="first-card">1</div>
+                        <div class="second-card">2</div>
+                        <div class="third-card">3</div>
+                    </div>
+                </div>
+        
+                <div class="right-our-varieties light-background"></div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+<!-- <script type="text/javascript">
+    function mask(inputName, mask, evt) {
+        try {
+            var text = document.getElementById(inputName);
+            var value = text.value;
+            // If user pressed DEL or BACK SPACE, clean the value
+            try {
+                var e = (evt.which) ? evt.which : event.keyCode;
+                if (e == 46 || e == 8) {
+                    text.value = "";
+                    return;
+                }
+            } catch (e1) { }
+            var literalPattern = /[0\*]/;
+            var numberPattern = /[0-9]/;
+            var newValue = "";
+            for (var vId = 0, mId = 0; mId < mask.length;) {
+                if (mId >= value.length)
+                break;
+                // Number expected but got a different value, store only the valid portion
+                if (mask[mId] == '0' && value[vId].match(numberPattern) == null) {
+                    break;
+                }
+                // Found a literal
+                while (mask[mId].match(literalPattern) == null) {
+                    if (value[vId] == mask[mId])
+                    break;
+                    newValue += mask[mId++];
+                }
+                newValue += value[vId++];
+                mId++;
+            }
+            text.value = newValue;
+        } catch (e) { }
+    }
+</script> -->
+
+<footer>
+    <div class="contact-information-container">
+        <img class="contact-information-logo" src="img/logo.png" alt="">
+        <div class="text-information-container">
+            <div class="contact-information-title">Наши контакты:</div>
+            <div class="contact-information-text">Приходите: г. Москва, ул. Маршала Бирюзова 4к2</div>
+            <div class="contact-information-text">Звоните: + 7 (495) 151 05 31</div>
+            <div class="contact-information-text">Часы работы: с 09:00 до 20:00</div>
+        </div>
+    </div>
+</footer>
+
+</html>
