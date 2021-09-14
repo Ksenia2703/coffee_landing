@@ -751,6 +751,38 @@ body {
     font-size: 28px;
   }
 }
+@media (max-width: 1072px) {
+  .consultation {
+    font-size: 25px;
+  }
+}
+@media (max-width: 920px) {
+  .consultation {
+    font-size: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .consultation {
+    font-size: 17px;
+  }
+}
+@media (max-width: 652px) {
+  .consultation {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .consultation {
+    font-size: 12px;
+  }
+}
+@media (max-width: 378px) {
+  .consultation {
+    font-size: 11px;
+  }
+}
+
+
 
 .free-consultation-block {
     position: relative;
@@ -762,9 +794,19 @@ body {
     position: absolute;
     top: 0px;
 }
+@media (max-width: 378px) {
+  .left-free-consultation-block {
+    width: 30%;
+  }
+}
 
 .information-container {
     display: flex;
+}
+@media (max-width: 575px) {
+  .information-container {
+    flex-direction: column;
+  }
 }
 
 .we-give-grain-block {
@@ -774,12 +816,23 @@ body {
     flex-direction: column;
     align-items: center;
 }
+@media (max-width: 575px) {
+  .we-give-grain-block {
+    width: 100%;
+  }
+}
 
 .the-second-part-give-grain {
     width: 50%;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media (max-width: 575px) {
+  .the-second-part-give-grain {
+    width: 100%;
+  }
 }
 
 .information-container {
@@ -814,6 +867,62 @@ body {
     width: 450px;
   }
 }
+@media (max-width: 1072px) {
+  .consultation-card-left {
+    font-size: 17px;
+    height: 45px;
+    width: 370px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 920px) {
+  .consultation-card-left {
+    font-size: 15px;
+    height: 40px;
+    width: 320px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .consultation-card-left {
+    font-size: 14px;
+    height: 35px;
+    width: 270px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 652px) {
+  .consultation-card-left {
+    font-size: 12px;
+    height: 30px;
+    width: 210px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 575px) {
+  .consultation-card-left {
+    font-size: 15px;
+    height: 30px;
+    width: 410px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 480px) {
+  .consultation-card-left {
+    font-size: 15px;
+    height: 30px;
+    width: 310px;
+    padding: 15px 15px;
+  }
+}
+@media (max-width: 378px) {
+  .consultation-card-left {
+    font-size: 13px;
+    height: 30px;
+    width: 260px;
+    padding: 10px 15px;
+  }
+}
 
 .consultation-card-right {
     padding: 20px 20px;
@@ -843,6 +952,62 @@ body {
     width: 450px;
   }
 }
+@media (max-width: 1072px) {
+  .consultation-card-right {
+    font-size: 17px;
+    height: 45px;
+    width: 370px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 920px) {
+  .consultation-card-right {
+    font-size: 15px;
+    height: 40px;
+    width: 320px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .consultation-card-right {
+    font-size: 14px;
+    height: 35px;
+    width: 270px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 652px) {
+  .consultation-card-right {
+    font-size: 12px;
+    height: 30px;
+    width: 210px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 575px) {
+  .consultation-card-right {
+    font-size: 15px;
+    height: 30px;
+    width: 410px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 480px) {
+  .consultation-card-right {
+    font-size: 15px;
+    height: 30px;
+    width: 310px;
+    padding: 15px 15px;
+  }
+}
+@media (max-width: 378px) {
+  .consultation-card-right {
+    font-size: 13px;
+    height: 30px;
+    width: 260px;
+    padding: 10px 15px;
+  }
+}
 
 .we-give-grain-text {
     margin-top: 150px;
@@ -857,9 +1022,79 @@ body {
     font-size: 20px;
   }
 }
+@media (max-width: 1072px) {
+  .we-give-grain-text {
+    font-size: 17px;
+    height: 45px;
+    width: 370px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 920px) {
+  .we-give-grain-text {
+    font-size: 15px;
+    height: 40px;
+    width: 320px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .we-give-grain-text {
+    font-size: 14px;
+    height: 35px;
+    width: 270px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 652px) {
+  .we-give-grain-text {
+    font-size: 12px;
+    height: 30px;
+    width: 210px;
+    padding: 10px 15px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .we-give-grain-text {
+    font-size: 15px;
+    height: 30px;
+    width: 410px;
+    padding: 10px 15px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .we-give-grain-text {
+    font-size: 15px;
+    height: 30px;
+    width: 310px;
+    padding: 15px 15px;
+  }
+}
+@media (max-width: 378px) {
+  .we-give-grain-text {
+    font-size: 13px;
+    height: 30px;
+    width: 260px;
+    padding: 10px 15px;
+    margin-top: 90px;
+  }
+}
+
 
 .pick-up-and {
     margin-top: 150px;
+}
+@media (max-width: 652px) {
+  .pick-up-and {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .pick-up-and {
+    margin-top: 30px;
+  }
 }
 
 .container-btn {
@@ -892,6 +1127,41 @@ body {
     font-size: 15px;
   }
 }
+@media (max-width: 1072px) {
+  .get-consultation-btn {
+    padding: 14px 24px;
+    font-size: 14px;
+    margin: 80px 0px 10px 0px;
+  }
+}
+@media (max-width: 920px) {
+  .get-consultation-btn {
+    padding: 14px 22px;
+    font-size: 14px;
+    margin: 60px 0px 10px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .get-consultation-btn {
+    padding: 13px 18px;
+    font-size: 12px;
+    margin: 45px 0px 10px 0px;
+  }
+}
+@media (max-width: 652px) {
+  .get-consultation-btn {
+    padding: 10px 15px;
+    font-size: 11px;
+    margin: 35px 0px 10px 0px;
+  }
+}
+@media (max-width: 480px) {
+  .get-consultation-btn {
+    padding: 10px 15px;
+    font-size: 9px;
+    margin: 30px 0px 10px 0px;
+  }
+}
 
 .get-consultation-btn:hover {
     transform: translateY(-6px);
@@ -909,6 +1179,44 @@ body {
     font-size: 15px;
   }
 }
+@media (max-width: 1072px) {
+  .manager-call {
+    font-size: 14px;
+  }
+}
+@media (max-width: 920px) {
+  .manager-call {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .manager-call {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .manager-call {
+    font-size: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .manager-call {
+    font-size: 9px;
+  }
+}
+@media (max-width: 480px) {
+  .manager-call {
+    font-size: 9px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 378px) {
+  .manager-call {
+    font-size: 8px;
+    padding-bottom: 50px;
+  }
+}
+
 
 
 
@@ -924,10 +1232,30 @@ body {
     background-color: #EDF0F5;
     height: 400px;
 }
+@media (max-width: 440px) {
+  .bacgroung-our-varieties-container {
+    height: 340px;
+  }
+}
+@media (max-width: 340px) {
+  .bacgroung-our-varieties-container {
+    height: 320px;
+  }
+}
 
 .right-our-varieties {
     width: 25%;
     height: 400px;
+}
+@media (max-width: 440px) {
+  .right-our-varieties {
+    height: 340px;
+  }
+}
+@media (max-width: 340px) {
+  .right-our-varieties {
+    height: 320px;
+  }
 }
 
 .common-window {
@@ -936,8 +1264,61 @@ body {
     margin-top: 80px;
     left: calc(50% - 370px);
     width: 740px;
-
 }
+@media (max-width: 860px) {
+  .common-window {
+    left: calc(50% - 345px);
+    width: 680px;
+  }
+}
+@media (max-width: 767px) {
+  .common-window {
+    left: calc(50% - 302.5px);
+    width: 605px;
+  }
+}
+@media (max-width: 767px) {
+  .common-window {
+    left: calc(50% - 302.5px);
+    width: 605px;
+  }
+}
+@media (max-width: 650px) {
+  .common-window {
+    left: calc(50% - 256px);
+    width: 512px;
+  }
+}
+@media (max-width: 550px) {
+  .common-window {
+    left: calc(50% - 210px);
+    width: 420px;
+  }
+}
+@media (max-width: 550px) {
+  .common-window {
+    left: calc(50% - 210px);
+    width: 420px;
+  }
+}
+@media (max-width: 440px) {
+  .common-window {
+    left: calc(50% - 150px);
+    width: 300px;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+}
+@media (max-width: 340px) {
+  .common-window {
+    left: calc(50% - 130px);
+    width: 260px;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+}
+
+
 
 .varieties-form {
     width: 650px;
@@ -945,12 +1326,45 @@ body {
     flex-direction: column;
     align-items: center;
     border: 2px solid rgb(224 224 224);
-    /* box-shadow: 15px 15px 32px -12px rgba(59,34,4,0.75);
-    -webkit-box-shadow: 15px 15px 32px -12px rgba(59,34,4,0.75);
-    -moz-box-shadow: 15px 15px 32px -12px rgba(59,34,4,0.75); */
     height: 270px;
     z-index: 1;
 }
+@media (max-width: 860px) {
+  .varieties-form {
+    width: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .varieties-form {
+    width: 530px;
+    height: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .varieties-form {
+    width: 440px;
+    height: 235px;
+  }
+}
+@media (max-width: 550px) {
+  .varieties-form {
+    width: 360px;
+    height: 200px;
+  }
+}
+@media (max-width: 440px) {
+  .varieties-form {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .varieties-form {
+    width: 260px;
+    height: 180px;
+  }
+}
+
 
 .container-numbering {
     border-right: 2px solid rgb(224 224 224);
@@ -962,6 +1376,44 @@ body {
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 860px) {
+  .container-numbering {
+    width: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .container-numbering {
+    width: 72px;
+    height: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .container-numbering {
+    width: 75px;
+    height: 235px;
+  }
+}
+@media (max-width: 550px) {
+  .container-numbering {
+    width: 60px;
+    height: 200px;
+  }
+}
+@media (max-width: 440px) {
+  .container-numbering {
+    width: 300px;
+    height: 55px;
+    flex-direction: row;
+    border-top: none;
+    border-left: 2px solid rgb(224 224 224);
+  }
+}
+@media (max-width: 340px) {
+  .container-numbering {
+    width: 260px;
+    height: 45px;
+  }
+}
 
 .bright-and-unusual-title {
     padding: 25px 0px;
@@ -971,17 +1423,94 @@ body {
     text-align: center;
     color: #415167;
 }
+@media (max-width: 767px) {
+  .bright-and-unusual-title {
+    font-size: 19px;
+  }
+}
+@media (max-width: 650px) {
+  .bright-and-unusual-title {
+    font-size: 18px;
+    padding: 15px 0px;
+  }
+}
+@media (max-width: 550px) {
+  .bright-and-unusual-title {
+    font-size: 15px;
+    padding: 12px 0px;
+  }
+}
+@media (max-width: 440px) {
+  .bright-and-unusual-title {
+    font-size: 12px;
+    padding: 12px 0px;
+  }
+}
+@media (max-width: 340px) {
+  .bright-and-unusual-title {
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+}
 
 .bright-span {
     padding: 0px 40px 15px 40px;
     font-family: 'Nunito';
     font-size: 16px;
 }
+@media (max-width: 650px) {
+  .bright-span {
+    font-size: 14px;
+    padding: 0px 15px 20px 15px;
+  }
+}
+@media (max-width: 550px){
+.bright-span {
+    font-size: 13px;
+    padding: 0px 10px 10px 10px;
+  }
+}
+@media (max-width: 440px){
+.bright-span {
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+  }
+}
+@media (max-width: 340px){
+.bright-span {
+    font-size: 11px;
+    padding: 0px 10px 10px 10px;
+  }
+}
 
 .bright-span-end {
     padding: 0px 40px 25px 40px;
     font-family: 'Nunito';
     font-size: 16px;
+}
+@media (max-width: 650px) {
+  .bright-span-end {
+    font-size: 14px;
+    padding: 0px 15px 20px 15px;
+  }
+}
+@media (max-width: 550px){
+.bright-span-end {
+    font-size: 13px;
+    padding: 0px 10px 10px 10px;
+  }
+}
+@media (max-width: 440px){
+.bright-span-end {
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+  }
+}
+@media (max-width: 340px){
+.bright-span-end {
+    font-size: 11px;
+    padding: 0px 10px 10px 10px;
+  }
 }
 
 .first-card {
@@ -992,6 +1521,38 @@ body {
     color: #415167;
     font-weight: 600;
     font-size: 30px;
+}
+@media (max-width: 767px) {
+  .first-card {
+    height: 85px;
+  }
+}
+@media (max-width: 650px) {
+  .first-card {
+    height: 78px;
+  }
+}
+@media (max-width: 550px) {
+  .first-card {
+    height: 65px;
+    line-height: 70px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 440px) {
+  .first-card {
+    height: 54px;
+    line-height: 55px;
+    font-size: 26px;
+    width: 100px;
+  }
+}
+@media (max-width: 340px) {
+  .first-card {
+    height: 44px;
+    line-height: 45px;
+    font-size: 20px;
+  }
 }
 .first-card:hover  {
     background-color: #415167;
@@ -1008,6 +1569,41 @@ body {
     font-weight: 600;
     font-size: 30px;
 }
+@media (max-width: 767px) {
+  .second-card {
+    height: 85px;
+  }
+}
+@media (max-width: 650px) {
+  .second-card {
+    height: 77px;
+  }
+}
+@media (max-width: 550px) {
+  .second-card {
+    height: 65px;
+    line-height: 70px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 440px) {
+  .second-card {
+    height: 54px;
+    line-height: 55px;
+    font-size: 26px;
+    width: 100px;
+    border-left: 2px solid rgb(224 224 224);
+    border-right: 2px solid rgb(224 224 224);
+    border-top: none;
+  }
+}
+@media (max-width: 340px) {
+  .second-card {
+    height: 44px;
+    line-height: 45px;
+    font-size: 20px;
+  }
+}
 .second-card:hover {
     background-color: #415167;
     color: white;
@@ -1022,6 +1618,38 @@ body {
     color: #415167;
     font-weight: 600;
     font-size: 30px;
+}
+@media (max-width: 767px) {
+  .third-card {
+    height: 86px;
+  }
+}
+@media (max-width: 650px) {
+  .third-card {
+    height: 76px;
+  }
+}
+@media (max-width: 550px) {
+  .third-card {
+    height: 66px;
+    line-height: 70px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 440px) {
+  .third-card {
+    height: 54px;
+    line-height: 55px;
+    font-size: 26px;
+    width: 100px;
+  }
+}
+@media (max-width: 340px) {
+  .third-card {
+    height: 44px;
+    line-height: 45px;
+    font-size: 20px;
+  }
 }
 .third-card:hover {
     background-color: #415167;
@@ -1179,9 +1807,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 575px) {
+  .contact-information-container {
+    height: 120px;
+  }
+}
 
 .contact-information-logo {
     height: 48px;
+}
+@media (max-width: 575px) {
+  .contact-information-logo {
+    height: 44px;
+  }
+}
+@media (max-width: 439px) {
+  .contact-information-logo {
+    height: 40px;
+  }
 }
 
 .contact-information-title {
@@ -1191,12 +1834,53 @@ body {
     padding-bottom: 8px;
     margin-right: 15px;
 }
+@media (max-width: 991px) {
+  .contact-information-title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-information-title {
+    font-size: 13px;
+  }
+}
+@media (max-width: 575px) {
+  .contact-information-title {
+    font-size: 11px;
+  }
+}
+@media (max-width: 439px) {
+  .contact-information-title {
+    font-size: 9px;
+  }
+}
+
 
 .contact-information-text {
     font-family: 'Nunito';
     color: white;
     padding-bottom: 8px;
     margin-right: 15px;
+}
+@media (max-width: 991px) {
+  .contact-information-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-information-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .contact-information-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 439px) {
+  .contact-information-text {
+    font-size: 8px;
+  }
 }
 
 /* карточка вкусов 2 */
@@ -1207,9 +1891,43 @@ body {
     flex-direction: column;
     align-items: center;
     border: 2px solid rgb(224 224 224);
-    
     height: 270px;
     position: absolute;
+}
+@media (max-width: 860px) {
+  .varieties-form-2 {
+    width: 594px;
+  }
+}
+@media (max-width: 767px) {
+  .varieties-form-2 {
+    width: 524px;
+    height: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .varieties-form-2 {
+    width: 432px;
+    height: 235px;
+  }
+}
+@media (max-width: 550px) {
+  .varieties-form-2 {
+    width: 355px;
+    height: 200px;
+  }
+}
+@media (max-width: 440px) {
+  .varieties-form-2 {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .varieties-form-2 {
+    width: 260px;
+    height: 180px;
+  }
 }
 
 .varieties-form-3 {
@@ -1218,9 +1936,44 @@ body {
     flex-direction: column;
     align-items: center;
     border: 2px solid rgb(224 224 224);
-    
+  
     height: 270px;
     position: absolute;
+}
+@media (max-width: 860px) {
+  .varieties-form-3 {
+    width: 594px;
+  }
+}
+@media (max-width: 767px) {
+  .varieties-form-3 {
+    width: 524px;
+    height: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .varieties-form-3 {
+    width: 432px;
+    height: 235px;
+  }
+}
+@media (max-width: 550px) {
+  .varieties-form-3 {
+    width: 355px;
+    height: 200px;
+  }
+}
+@media (max-width: 440px) {
+  .varieties-form-3 {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .varieties-form-3 {
+    width: 260px;
+    height: 180px;
+  }
 }
 
 .z-index-2{
