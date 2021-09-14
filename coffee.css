@@ -1661,13 +1661,13 @@ body {
 
 /* -------------------------------модальное окно------------------------------------------- */
 
-.d-none {
+/* .d-none {
     display: none;
-}
+} */
 
-.hidden {
+/* .hidden {
     visibility: hidden;
-}
+} */
 
 .md-modal-container{
     width: 400px;
@@ -1738,7 +1738,77 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 320px;
 }
+@media (max-width: 1520px) {
+  .thanks-for-application-container {
+    margin-top: 290px;
+  }
+}
+@media (max-width: 991px) {
+  .thanks-for-application-container {
+    width: 330px;
+    height: 190px;
+    margin-top: 330px;
+    margin-left: calc(50% - 165px);
+  }
+}
+@media (max-width: 663px) {
+  .thanks-for-application-container {
+    width: 280px;
+    height: 180px;
+    margin-top: 340px;
+    margin-left: calc(50% - 140px);
+  }
+}
+@media (max-width: 451px) {
+  .thanks-for-application-container {
+    width: 220px;
+    height: 110px;
+    margin-top: 390px;
+    margin-left: calc(50% - 135px);
+  }
+}
+@media (max-width: 340px) {
+  .thanks-for-application-container {
+    margin-left: calc(50% - 125px);
+  }
+}
+@media (max-width: 294px) {
+  .thanks-for-application-container {
+    width: 170px;
+    height: 90px;
+    margin-left: calc(50% - 105px);
+  }
+}
+
+.inp-well {
+    padding: 7px 27px;
+    margin-top: 27px;
+    background-color: #219a00;
+    color: white;
+    font-size: 16px;
+}
+@media (max-width: 663px) {
+  .inp-well {
+    padding: 6px 24px;
+  }
+}
+@media (max-width: 451px) {
+  .inp-well {
+    padding: 4px 15px;
+    font-size: 13px;
+    margin-top: 18px;
+  }
+}
+@media (max-width: 294px) {
+  .inp-well {
+    padding: 3px 8px;
+    font-size: 10px;
+    margin-top: 12px;
+  }
+}
+
 
 .thanks-for-application-title {
     font-family: 'Nunito';
@@ -1747,9 +1817,52 @@ body {
     font-weight: 600;
     color: #415167;
 }
+@media (max-width: 991px) {
+  .thanks-for-application-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 663px) {
+  .thanks-for-application-title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 451px) {
+  .thanks-for-application-title {
+    font-size: 14px;
+  }
+}
+@media (max-width: 294px) {
+  .thanks-for-application-title {
+    font-size: 10px;
+  }
+}
 
 .ft-green-tick {
     margin: 15px 0px;
+}
+@media (max-width: 991px) {
+  .ft-green-tick {
+    height: 70px;
+  }
+}
+@media (max-width: 663px) {
+  .ft-green-tick {
+    height: 60px;
+  }
+}
+@media (max-width: 451px) {
+  .ft-green-tick {
+    height: 47px;
+    margin: 0px 0px;
+  }
+}
+@media (max-width: 451px) {
+  .ft-green-tick {
+    height: 34px;
+    margin: 0px 0px;
+    margin-bottom: 8px;
+  }
 }
 
 @supports (animation: grow .5s cubic-bezier(.25, .25, .25, 1) forwards) {
@@ -1790,13 +1903,7 @@ body {
     100% { stroke-dashoffset: 0; }
 }
 
-.inp-well {
-    padding: 7px 27px;
-    margin-top: 27px;
-    background-color: #219a00;
-    color: white;
-    font-size: 16px;
-}
+
 
 /* ------------------------------------------------------------------------------- */
 
