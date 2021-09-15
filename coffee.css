@@ -1665,19 +1665,47 @@ body {
     display: none;
 } */
 
-/* .hidden {
+.hidden {
     visibility: hidden;
-} */
+}
 
 .md-modal-container{
-    width: 400px;
-    height: 230px;
+    width: 450px;
+    height: 290px;
     background-color: #f9fbff;
     border: 2px solid #9da6b3;
     position: fixed;
     z-index: 20;
-    margin-top: 28%;
-    margin-left: calc(50% - 200px);
+    margin-top: 400px;
+    margin-left: calc(50% - 225px);
+}
+@media (max-width: 1520px) {
+  .md-modal-container {
+    margin-top: 320px;
+  }
+}
+@media (max-width: 1199px) {
+  .md-modal-container {
+    width: 405px;
+    height: 245px;
+    margin-left: calc(50% - 202px);
+  }
+}
+@media (max-width: 767px) {
+  .md-modal-container {
+    width: 330px;
+    height: 200px;
+    margin-left: calc(50% - 165px);
+    margin-top: 370px;
+  }
+}
+@media (max-width: 480px) {
+  .md-modal-container {
+    width: 280px;
+    height: 170px;
+    margin-left: calc(50% - 140px);
+    margin-top: 400px;
+  }
 }
 
 .md-modal {
@@ -1694,22 +1722,85 @@ body {
 
 .leave-request {
     font-family: 'Nunito';
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
     color: #415167;
 }
+@media (max-width: 1199px) {
+  .leave-request {
+    font-size: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .leave-request {
+    font-size: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .leave-request {
+    font-size: 14px;
+  }
+}
 
 .common-name {
-    margin: 15px 0px;
+    margin: 20px 0px;
+}
+@media (max-width: 767px) {
+  .common-name {
+    margin: 13px 0px;
+  }
+}
+@media (max-width: 480px) {
+  .common-name {
+    margin: 10px 0px;
+  }
 }
 
 .inp-number {
     padding: 7px 10px;
+    width: 93%;
+    height: 20px;
+}
+@media (max-width: 1199px) {
+  .inp-number {
+    height: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .inp-number {
+    height: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .inp-number {
+    height: 9px;
+  }
 }
 
 .inp-name {
     padding: 7px 10px;
+    width: 93%;
+    height: 20px;
+    font-size: 16px;
+}
+@media (max-width: 1199px) {
+  .inp-name {
+    height: 15px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .inp-name {
+    height: 12px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 480px) {
+  .inp-name {
+    height: 9px;
+    font-size: 11px;
+  }
 }
 
 .add-a-product{
@@ -1721,7 +1812,27 @@ body {
 .inp-send {
     padding: 6px 20px;
     margin-top: 15px;
+    font-size: 17px;
 }
+@media (max-width: 1199px) {
+  .inp-send {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .inp-send {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .inp-send {
+    margin-top: 4px;
+    font-size: 9px;
+  }
+}
+
 
 /* -------------------------------модальное окно------------------------------------------- */
 /* модальное окно благодарности за заявку */
