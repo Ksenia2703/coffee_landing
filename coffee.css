@@ -794,6 +794,16 @@ body {
     position: absolute;
     top: 0px;
 }
+@media (max-width: 652px) {
+  .left-free-consultation-block {
+    width: 32%;
+  }
+}
+@media (max-width: 480px) {
+  .left-free-consultation-block {
+    width: 31%;
+  }
+}
 @media (max-width: 378px) {
   .left-free-consultation-block {
     width: 30%;
@@ -1661,9 +1671,9 @@ body {
 
 /* -------------------------------модальное окно------------------------------------------- */
 
-/* .d-none {
+.d-none {
     display: none;
-} */
+}
 
 .hidden {
     visibility: hidden;
@@ -1833,7 +1843,11 @@ body {
   }
 }
 
-
+/* удаляет стрелочки справа у поля ввода */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 /* -------------------------------модальное окно------------------------------------------- */
 /* модальное окно благодарности за заявку */
 
@@ -2205,6 +2219,13 @@ body {
     background-color: #415167;
     color: white; 
 }
+
+
+
+
+
+
+
 
 
 

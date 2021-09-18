@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <link id="mainThemeCss" rel="stylesheet" href="coffee.css">
+    <link id="mainThemeCss" rel="stylesheet" href="coffee.css?v=4">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -13,9 +13,9 @@
     <div class="project-container">
         <div class="project">
             <!--  -->
-            <div class="md-modal-container d-none">
+            <div class="md-modal-container d-none " id="modalApplications">
                 <div class="closing-modal">
-                    <span>&#10006;</span>
+                    <span class="close-modal" id="closeModal">&#10006;</span>
                 </div>
                 <div class="md-modal">
                     <div class="content-common-block md-content">
@@ -40,12 +40,12 @@
             <!--  -->
 
             <!-- поле благодарности за заявку -->
-                <div class="thanks-for-application-container hidden">
+                <div class="thanks-for-application-container hidden" id="gratitudeWindow">
                     <div class="svg-container">
                         <svg class="ft-green-tick" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 48 48"
                             aria-hidden="true">
-                            <circle class="circle" fill="#5bb543" cx="24" cy="24" r="22" />
-                            <path class="tick" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
+                            <circle id="circle" fill="#5bb543" cx="24" cy="24" r="22" />
+                            <path id="tick" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-miterlimit="10" d="M14 27l5.917 4.917L34 17" />
                         </svg>
                     </div>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="container-btn">
-                        <button class="get-consultation-btn">Получить консультацию</button>
+                        <button class="get-consultation-btn" id="getConsultation">Получить консультацию</button>
                         <div class="manager-call">Наш менеджер вам перезвонит</div>
                     </div>
                 </div>
@@ -241,5 +241,7 @@
         </div>
     </div>
 </footer>
+
+<script src="coffee.js"></script>
 
 </html>
