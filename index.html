@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <link id="mainThemeCss" rel="stylesheet" href="coffee.css?v=4">
+    <link id="mainThemeCss" rel="stylesheet" href="coffee.css?v=5">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -22,12 +22,11 @@
                         <div class="leave-request">Оставьте заявку</div>
                         <div class="common-name">
                             <form class="inp-form" action="" id="form1">
-                                <input class="inp-number" id="zipCode" name="guruweba_example_search" type="number"
-                                    onkeyup="javascript:mask('zipCode', '+7(000)000-00-00', event);" value="+7(___)___-____" />
+                                <input class="inp-number" id="phone-number" type="text" placeholder="+7 (___) ___-__-__"/>
                             </form>
                         </div>
                         <div class="common-name">
-                            <input class="inp-name" name="guruweba_example_search" placeholder="введите имя" type="text" />
+                            <input class="inp-name" id="name" placeholder="введите имя" type="text" />
                         </div>
                         <div class="common-ok-otmen">
                             <div class="add-a-product">
@@ -139,7 +138,7 @@
             <div class="our-varieties-container">
                 <div class="bacgroung-our-varieties-container"></div>
                 <div class="common-window">
-                    <div class="varieties-form">
+                    <div class="varieties-form" id="firstCard">
                         <div class="bright-and-unusual-title">
                             Яркий и необычный
                         </div>
@@ -154,7 +153,7 @@
                         </div>
                     </div>
                     <!-- карточка вкуса 2 -->
-                    <div class="varieties-form-2">
+                    <div class="varieties-form-2" id="secondCard">
                         <div class="bright-and-unusual-title">
                             Сбалансированный
                         </div>
@@ -166,7 +165,7 @@
                     </div>
                     <!--  -->
                     <!-- карточка вкуса 3 -->
-                    <div class="varieties-form-3">
+                    <div class="varieties-form-3" id="thirdCard">
                         <div class="bright-and-unusual-title">
                             Простой
                         </div>
@@ -180,9 +179,9 @@
                     <!--  -->
                     
                     <div class="container-numbering">
-                        <div class="first-card">1</div>
-                        <div class="second-card">2</div>
-                        <div class="third-card">3</div>
+                        <div class="first-card click-color" id="firstCardNumber">1</div>
+                        <div class="second-card" id="secondCardNumber">2</div>
+                        <div class="third-card" id="thirdCardNumber">3</div>
                     </div>
                 </div>
         
@@ -192,43 +191,6 @@
     </div>
    
 </body>
-
-<!-- <script type="text/javascript">
-    function mask(inputName, mask, evt) {
-        try {
-            var text = document.getElementById(inputName);
-            var value = text.value;
-            // If user pressed DEL or BACK SPACE, clean the value
-            try {
-                var e = (evt.which) ? evt.which : event.keyCode;
-                if (e == 46 || e == 8) {
-                    text.value = "";
-                    return;
-                }
-            } catch (e1) { }
-            var literalPattern = /[0\*]/;
-            var numberPattern = /[0-9]/;
-            var newValue = "";
-            for (var vId = 0, mId = 0; mId < mask.length;) {
-                if (mId >= value.length)
-                break;
-                // Number expected but got a different value, store only the valid portion
-                if (mask[mId] == '0' && value[vId].match(numberPattern) == null) {
-                    break;
-                }
-                // Found a literal
-                while (mask[mId].match(literalPattern) == null) {
-                    if (value[vId] == mask[mId])
-                    break;
-                    newValue += mask[mId++];
-                }
-                newValue += value[vId++];
-                mId++;
-            }
-            text.value = newValue;
-        } catch (e) { }
-    }
-</script> -->
 
 <footer>
     <div class="contact-information-container">
@@ -242,6 +204,7 @@
     </div>
 </footer>
 
-<script src="coffee.js"></script>
+<script src="js/imask.js"></script>
+<script src="js/coffee.js"></script>
 
 </html>
